@@ -5,15 +5,16 @@ name = "pypi"
 
 [packages]
 sphinx = "*"
-sphinx-rtd-theme = "*"
 commitizen = "*"
 pre-commit = "*"
+sphinxcontrib-svgbob = "*"
 furo = "*"
 sphinx-autobuild = "*"
 sphinx-inline-tabs = "*"
 sphinx-copybutton = "*"
 sphinx-tippy = "*"
 myst-parser = "*"
+sphinx-togglebutton = "*"
 
 [dev-packages]
 
