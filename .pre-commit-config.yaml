@@ -1,0 +1,31 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-added-large-files
+      - id: check-symlinks
+      - id: detect-private-key
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v2.37.0
+    hooks:
+      - id: commitizen
+      - id: commitizen-branch
+        stages: [push]
+  - repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+      - id: black
+#  - repo: local
+#    hooks:
+#      - id: pipenv-generetate-requirements
+#        name: Generate requirements.txt
+#        description: This hook generate the requirements.txt based on pipfile
+#        entry: scripts/generate-requeriments.sh
+#        language: script
+#        files: ^Pipfile(\.lock)?$
+#        stages: [merge-commit, push, prepare-commit-msg]
