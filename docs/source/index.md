@@ -3,7 +3,7 @@
 :alt: C3SL UFPR
 :target: https://www.c3sl.ufpr.br
 :width: 150px
-:margin-top: 40px
+:margin-top: -60px
 ```
 
 ```{toctree}
