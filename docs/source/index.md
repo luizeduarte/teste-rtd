@@ -1,13 +1,5 @@
 # Time de DB do C3SL
 
-```{image} _static/c3sl.png
-:align: center
-:alt: C3SL UFPR
-:target: https://www.c3sl.ufpr.br
-:width: 150px
-:margin-top: -60px
-```
-
 ```{toctree}
 :caption: "Apache NiFi"
 :glob:
