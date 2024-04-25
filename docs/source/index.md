@@ -3,6 +3,7 @@
 :alt: C3SL UFPR
 :target: https://www.c3sl.ufpr.br
 :width: 150px
+:margin-top: 40px
 ```
 
 ```{toctree}
@@ -10,7 +11,7 @@
 :glob:
 :titlesonly:
 
-pages/Apache NiFi/*.md
+pages/Apache NiFi/*
 ```
 
 
@@ -19,7 +20,7 @@ pages/Apache NiFi/*.md
 :glob:
 :titlesonly:
 
-pages/Backup/*.md
+pages/Backup/*
 ```
 
 
@@ -55,7 +56,7 @@ pages/Denial-constraint/*
 :glob:
 :titlesonly:
 
-pages/Distribuido/*.md
+pages/Distribuido/*
 ```
 
 
@@ -109,7 +110,7 @@ pages/MonetDB/*
 :glob:
 :titlesonly:
 
-pages/Monitoramento/*.md
+pages/Monitoramento/*
 ```
 
 ```{toctree}
@@ -152,5 +153,5 @@ pages/Seguranca/*
 :glob:
 :titlesonly:
 
-pages/Superset/*.md
+pages/Superset/*
 ```
