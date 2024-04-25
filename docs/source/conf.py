@@ -1,17 +1,17 @@
-import os
-import sys
-
-sys.path.append(os.path.abspath("./_ext"))
-
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import os
+import sys
+
+sys.path.append(os.path.abspath("./_ext"))
+
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "Time de DB do C3SL"
+project = "Documentação do time de BD"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -22,15 +22,11 @@ templates_path = ["_templates"]
 exclude_patterns = []
 
 extensions = [
-    "sphinxcontrib.svgbob",
     "sphinx.ext.todo",
     "sphinx_inline_tabs",
     "sphinx_copybutton",
     "sphinx_tippy",
-    "sphinx_togglebutton",
     "myst_parser",
-    "inline_svgbob",
-    "ipmi",
 ]
 
 myst_enable_extensions = [
@@ -54,10 +50,3 @@ todo_include_todos = True
 
 html_theme = "furo"
 html_static_path = ["_static"]
-html_css_files = ["svgbob.css"]
-
-# html_logo = "_static/root-logo.png"
-html_theme_options = {
-    "sidebar_hide_name": True,
-#    "source_edit_link": "https://gitlab.c3sl.ufpr.br/C3Root/docs/-/blob/main/source/{filename}",
-}
