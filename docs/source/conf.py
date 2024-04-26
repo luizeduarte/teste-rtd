@@ -33,6 +33,7 @@ myst_enable_extensions = [
     "colon_fence",
     "deflist",
     "fieldlist",
+    "html_image",
 ]
 
 myst_heading_anchors = 2
@@ -55,3 +56,4 @@ html_logo = "_static/c3db.jpg"
 html_theme_options = {
     "sidebar_hide_name": True,
 }
+
