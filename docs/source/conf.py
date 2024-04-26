@@ -50,7 +50,7 @@ todo_include_todos = True
 
 html_theme = "furo"
 html_static_path = ["_static"]
-html_logo = "_static/c3sl.png"
+html_logo = "_static/c3db.jpg"
 
 html_theme_options = {
     "sidebar_hide_name": True,
