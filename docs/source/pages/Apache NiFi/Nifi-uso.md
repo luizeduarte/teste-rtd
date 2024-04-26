@@ -18,7 +18,7 @@ Ao clicar no símbolo de engrenagem na aba de Operate será aberta a aba de conf
 <img src="./Images/Operate.png" width="315" height="242">
 
 Nesta aba é possível adicionar e configurar controladores de serviço ao NiFi. Exemplo de controladores são o DBCPConnectionPool para conectar-se a um BD(para mais informações sobre como conectar um banco conferir arquivo Nifi-clickhouse.md neste mesmo diretório) e o JsonTreeReader e JsonRecordSetWriter cujas funções são respectivamente ler e escrever um arquivo Json.
-<img src="Controladores.png" width="1600" height="337">
+<img src="./Images/Controladores.png" width="1600" height="337">
  
 ## <img src="./Images/Processador.jpg" width="58" height="52"> Processadores 
 
