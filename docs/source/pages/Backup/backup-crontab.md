@@ -1,4 +1,4 @@
-# Criar backup procedure
+# Create backup procedure
 
 Para criar um sistema basico de backup é necessario um script bash de backup e crontab.
 

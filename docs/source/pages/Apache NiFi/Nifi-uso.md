@@ -1,14 +1,13 @@
-# Uso do NIFI
-
 ## Objetivo
 Explicar o uso básico da ferramenta por meio de exemplos. Importante notar que o Apache NiFi possui muitos outros usos além dos descritos aqui e este tutorial busca tornar o leitor apto a entender por si só o uso geral da ferramenta.
 
 ## Links
-[1] https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html  
-[2] https://community.cloudera.com/t5/Support-Questions/InvokeHTTP-with-pagination/td-p/165546?lightbox-message-images-165546=20375i893A220D11974D6F  
-[3] https://github.com/pvillard31/my-blog/blob/main/2016/2016-04-04-analyze-flickr-account-using-apache/index.md  
-[4] https://shubham-kanungo95.medium.com/exploring-nifi-rest-api-with-stopping-and-starting-a-processor-cfeac9073c1c  
-[5] https://nifi.apache.org/docs/nifi-docs/rest-api/index.html
+[1] Linguagem de expressão: https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html  
+[2] GET HTTP Paginado:  https://community.cloudera.com/t5/Support-Questions/InvokeHTTP-with-pagination/td-p/165546?lightbox-message-images-165546=20375i893A220D11974D6F  
+[3] GET HTTP Paginado:  https://github.com/pvillard31/my-blog/blob/main/2016/2016-04-04-analyze-flickr-account-using-apache/index.md  
+[4] REST-API:   https://shubham-kanungo95.medium.com/exploring-nifi-rest-api-with-stopping-and-starting-a-processor-cfeac9073c1c  
+[5] REST-API:   https://nifi.apache.org/docs/nifi-docs/rest-api/index.html  
+[6] Erro de Log cheio:  https://stackoverflow.com/questions/56220024/apache-nifi-recovering-from-flowfile-repository-issue  
 ## Dependências
 [1] Nifi, 1.25.0, Controle de fluxo de dados
 
@@ -144,8 +143,13 @@ A função do Rótulo é criar campos de texto para usos genéricos como coment�
 
 <img src="./Images/Label-Exemplo.png" width="1000" height="550">
 
+##  ERROS CONHECIDOS
+[1] Quando muitos testes seguidos foram efetuados e criaram-se filas com algumas centenas de GB o docker do nifi morreu e passou a não se conseguir coloca-lo no ar novamente por mais de 10 segundos. Isso foi resolvido deletando os arquivos de log.
+
 ##  TUTORIAIS FUTUROS
-[1] É possível fazer start e stop de processadores por requisiçẽos API:   
+[1] É possível fazer start e stop de processadores por requisições API:   
 https://shubham-kanungo95.medium.com/exploring-nifi-rest-api-with-stopping-and-starting-a-processor-cfeac9073c1c  
 https://nifi.apache.org/docs/nifi-docs/rest-api/index.html  
 [2] Uso de lógica booleana
+
+

@@ -1,4 +1,4 @@
-# Do NiFi para o Clickhouse 
+Nifi -> Clickhouse
 
 ## Objetivo
 Relizar uma conexão entre Apache Nifi e Clickhouse, montanto um fluxo de dados simples e salvando em clickhouse.
@@ -22,7 +22,7 @@ Acesse as configurações do novo serviço de controle (icone de engrenagem ao f
 
 | Campo | Conteúdo |
 | ---   | ---      |
-| Database Connection URL     | jdbc:ch:https://hydrapostgres.c3sl.ufpr.br:8123/default?ssl=false |
+| Database Connection URL     | jdbc:ch:https://saruman.c3sl.ufpr.br:8123/default?ssl=false |
 | Database Driver Class Name  | com.clickhouse.jdbc.ClickHouseDriver |
 | Database Driver Location(s) | /opt/nifi/nifi-current/extensions/clickhouse-jdbc-0.5.0-all.jar |
 | Database User               | default |

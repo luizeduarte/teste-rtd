@@ -69,5 +69,5 @@ docker run --name nifi -e NIFI_WEB_HTTP_PORT='8443' -p 8443:8443 -d apache/nifi:
 ```
 docker run --name nifi -e NIFI_WEB_HTTPS_PORT='8443' -p 8443:8443 -d -e SINGLE_USER_CREDENTIALS_USERNAME=nifi_user -e SINGLE_USER_CREDENTIALS_PASSWORD=nifi_pass apache/nifi:1.25.0 --restart=always
 ```
-
-- Abra a URL https://localhost:8443/nifi no navegador (_*pode demorar uns minutinhos para subir*_).
+ 
+- Abra a URL http://localhost:8443/nifi no navegador (_*pode demorar uns minutinhos para subir*_). Se usou autenticação, use *https* em vez de *http*.

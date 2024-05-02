@@ -76,3 +76,6 @@ Para exportar dados de uma query em um arquivo CSV utilizando o utilitário `cli
 ```bash
 clickhouse-client -d <database> --query "SELECT <coluna1>, <coluna2> FROM <tabela>" --format CSV
 ```
+
+##  Table Backups
+Os schemas e create statements das tabelas podem ser encontrados em /var/lib/clickhouse/
