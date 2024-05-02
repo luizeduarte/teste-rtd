@@ -54,6 +54,5 @@ html_static_path = ["_static"]
 html_logo = "_static/c3db_night.png"
 
 html_theme_options = {
-    'logo_only': True,
     "sidebar_hide_name": True,
 }
