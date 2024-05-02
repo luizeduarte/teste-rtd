@@ -51,9 +51,10 @@ todo_include_todos = True
 
 html_theme = "furo"
 html_static_path = ["_static"]
-html_logo = "_static/c3db.jpg"
+html_logo = "_static/c3db_day.jpg"
 
 html_theme_options = {
+    'logo_only': True,
+    'logo_dark': '_static/c3db_night.png',  # Caminho da logo para o modo escuro
     "sidebar_hide_name": True,
 }
-
