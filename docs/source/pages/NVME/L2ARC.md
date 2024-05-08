@@ -4,9 +4,9 @@
 Documentar processo de criação da configuração do L2ARC para cacheamento de NVME sobre RAID6 (Raidz2) de discos.
 
 ## Links
-[1] C3root: https://root.docs.c3sl.ufpr.br/pt/latest/pages/concepts/zfs.html  
-[2] ZFS storage pool: https://ubuntu.com/tutorials/setup-zfs-storage-pool#1-overview  
-[3] L2ARC setup: https://linuxhint.com/configuring-zfs-cache/  
+[1] C3root: <https://root.docs.c3sl.ufpr.br/pt/latest/pages/concepts/zfs.html>  
+[2] ZFS storage pool: <https://ubuntu.com/tutorials/setup-zfs-storage-pool#1-overview>  
+[3] L2ARC setup: <https://linuxhint.com/configuring-zfs-cache/>  
 
 ## Dependências
 [1] PostgresSQL, 16.2-0, Sistema de Gerênciamento de Banco de Dados  

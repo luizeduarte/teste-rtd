@@ -4,8 +4,8 @@
 Documentar passo a passo para realizar a replicação de um banco em PostgreSQl para Clickhouse.
 
 ## Links
-[1] Connecting ClickHouse to PostgreSQL: https://clickhouse.com/docs/en/integrations/postgresql \
-[2] [experimental] MaterializedPostgreSQL: https://clickhouse.com/docs/en/engines/database-engines/materialized-postgresql
+[1] Connecting ClickHouse to PostgreSQL: <https://clickhouse.com/docs/en/integrations/postgresql> \
+[2] [experimental] MaterializedPostgreSQL: <https://clickhouse.com/docs/en/engines/database-engines/materialized-postgresql>
 
 ## Dependências
 [1] PostgresSQL, 16.0-1, Sistema de Gerênciamento de Banco de Dados  \

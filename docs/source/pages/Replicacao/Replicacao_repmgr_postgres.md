@@ -8,11 +8,11 @@
 3 - Caso necessario, a primary original deve sincronizar os dados e a new primary deve virar a standby original
 
 ## Links
-[1] https://www.enterprisedb.com/postgres-tutorials/how-implement-repmgr-postgresql-automatic-failover  
-[2] https://www.repmgr.org/docs/4.3/index.html  
-[3] https://www.repmgr.org/docs/4.3/repmgr-command-reference.html (comandos do repmgr)  
-[4] https://raw.githubusercontent.com/2ndQuadrant/repmgr/master/repmgr.conf.sample (explicação de todas as possíveis configurações do repmgr.conf)  
-[5] Setup completo: https://medium.com/@victor.boissiere/how-to-setup-postgresql-cluster-with-repmgr-febc2f10c243
+[1] <https://www.enterprisedb.com/postgres-tutorials/how-implement-repmgr-postgresql-automatic-failover>  
+[2] <https://www.repmgr.org/docs/4.3/index.html>  
+[3] <https://www.repmgr.org/docs/4.3/repmgr-command-reference.html> (comandos do repmgr)  
+[4] <https://raw.githubusercontent.com/2ndQuadrant/repmgr/master/repmgr.conf.sample> (explicação de todas as possíveis configurações do repmgr.conf)  
+[5] Setup completo: <https://medium.com/@victor.boissiere/how-to-setup-postgresql-cluster-with-repmgr-febc2f10c243>
 
 ## Dependências
 [1] PostgreSQL, 16.0-1, Sistema de Gerenciamento de Banco de Dados  

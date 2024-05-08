@@ -8,11 +8,11 @@
 Criar um painel (dashboard) que apresente as métricas de vários servidores Postgresql, Clickhouse e que envie notificações de alerta para o discord ou telegram.
 
 ## Links
-[1] Prometheus: https://schh.medium.com/monitoring-postgresql-databases-using-postgres-exporter-along-with-prometheus-and-grafana-1d68209ca687 \
-[2] Prometheus: https://www.ashnik.com/monitoring-postgresql-with-prometheus-and-grafana/ \
-[3] Postgres Dashboard: https://grafana.com/grafana/dashboards/9628-postgresql-database/ \
-[4] Clickhouse Dashboard: https://grafana.com/grafana/dashboards/14192-clickhouse/ \
-[5] Grafana alert template: https://faun.pub/overview-of-grafana-alerting-and-message-templating-for-slack-6bb740ec44af
+[1] Prometheus: <https://schh.medium.com/monitoring-postgresql-databases-using-postgres-exporter-along-with-prometheus-and-grafana-1d68209ca687> \
+[2] Prometheus: <https://www.ashnik.com/monitoring-postgresql-with-prometheus-and-grafana/> \
+[3] Postgres Dashboard: <https://grafana.com/grafana/dashboards/9628-postgresql-database/> \
+[4] Clickhouse Dashboard: <https://grafana.com/grafana/dashboards/14192-clickhouse/> \
+[5] Grafana alert template: <https://faun.pub/overview-of-grafana-alerting-and-message-templating-for-slack-6bb740ec44af>
 
 ## Dependências
 [1] postgres_exporter, 0.15.0, conectar e selecionar as metricas a serem exportadas do cluster postgres. \

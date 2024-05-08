@@ -6,8 +6,8 @@ Documentar método de instalação e conexão ao Clickhouse.
 
 ## Links
 
-[1] Instalação e conexão: https://dianper.medium.com/embedding-superset-dashboards-with-clickhouse-data-into-net-web-application-a-step-by-step-guide-dcc1bb1c104b  
-[2] Mudar senha: https://gist.github.com/morrismukiri/0a7017c6a40b986ef383eb7b18e60f05  
+[1] Instalação e conexão: <https://dianper.medium.com/embedding-superset-dashboards-with-clickhouse-data-into-net-web-application-a-step-by-step-guide-dcc1bb1c104b>  
+[2] Mudar senha: <https://gist.github.com/morrismukiri/0a7017c6a40b986ef383eb7b18e60f05>  
 
 ##  Dependências
 
@@ -89,7 +89,7 @@ clickhouse client
 ```
 ### 2. Execução local:
 
-Com o Clickhouse [instalado](https://gitlab.c3sl.ufpr.br/team-db/documentation/-/blob/main/Clickhouse/clickhouse.md), certifique-se que a seguinte linha em `clickhouse-server/config.xml` não esteja comentada:
+Com o Clickhouse [instalado](https://documentation-db.docs.c3sl.ufpr.br/en/latest/pages/Clickhouse/clickhouse.html), certifique-se que a seguinte linha em `clickhouse-server/config.xml` não esteja comentada:
 
 ```xml
 <listen_host>::</listen_host>

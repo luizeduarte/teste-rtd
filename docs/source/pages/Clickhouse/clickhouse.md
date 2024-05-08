@@ -5,9 +5,9 @@ SGDB colunar open source de consultas analíticas.
 Documentar instalação e formas de configurar um sistema de produção em clickhouse
 
 ## Links
-[1] Install Clickhouse: https://clickhouse.com/docs/en/install \
-[2] Alterar diretório de dados: https://stackoverflow.com/questions/69371385/change-source-directory-in-clickhouse \
-[3] Clickhouse Keeper: https://clickhouse.com/blog/clickhouse-keeper-a-zookeeper-alternative-written-in-cpp?loc=keeper-hero
+[1] Install Clickhouse: <https://clickhouse.com/docs/en/install> \
+[2] Alterar diretório de dados: <https://stackoverflow.com/questions/69371385/change-source-directory-in-clickhouse> \
+[3] Clickhouse Keeper: <https://clickhouse.com/blog/clickhouse-keeper-a-zookeeper-alternative-written-in-cpp?loc=keeper-hero>
 
 ## Dependências
 [1] Clickhouse, v24.1.5.6-stable, Sistema de Gerênciamento de Banco de Dados colunar

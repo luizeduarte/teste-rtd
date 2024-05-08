@@ -6,10 +6,10 @@
 3 - Caso necessario, a master original deve sincronizar os dados e a new master deve virar a slave original
 
 ## Links
-[1] Master Slave Replication: https://www.highgo.ca/2023/04/03/setting-up-a-postgresql-replica-server-locally/ \
-[2] Replication Failover: https://www.highgo.ca/2023/04/10/setting-up-postgresql-failover-and-failback-the-right-way/ \
-[3] Log Shipping Standby Servers: https://www.postgresql.org/docs/current/warm-standby.html \
-[4] EnterpriseDB log shipping: https://www.enterprisedb.com/blog/how-set-streaming-replication-keep-your-postgresql-database-performant-and-date
+[1] Master Slave Replication: <https://www.highgo.ca/2023/04/03/setting-up-a-postgresql-replica-server-locally/> \
+[2] Replication Failover: <https://www.highgo.ca/2023/04/10/setting-up-postgresql-failover-and-failback-the-right-way/> \
+[3] Log Shipping Standby Servers: <https://www.postgresql.org/docs/current/warm-standby.html> \
+[4] EnterpriseDB log shipping: <https://www.enterprisedb.com/blog/how-set-streaming-replication-keep-your-postgresql-database-performant-and-date>
 
 ## Dependências
 [1] PostgreSQL, 16.0-1, Sistema de Gerenciamento de Banco de Dados

@@ -4,12 +4,12 @@
 Explicar o uso básico da ferramenta por meio de exemplos. Importante notar que o Apache NiFi possui muitos outros usos além dos descritos aqui e este tutorial busca tornar o leitor apto a entender por si só o uso geral da ferramenta.
 
 ## Links
-[1] Linguagem de expressão: https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html  
-[2] GET HTTP Paginado:  https://community.cloudera.com/t5/Support-Questions/InvokeHTTP-with-pagination/td-p/165546?lightbox-message-images-165546=20375i893A220D11974D6F  
-[3] GET HTTP Paginado:  https://github.com/pvillard31/my-blog/blob/main/2016/2016-04-04-analyze-flickr-account-using-apache/index.md  
-[4] REST-API:   https://shubham-kanungo95.medium.com/exploring-nifi-rest-api-with-stopping-and-starting-a-processor-cfeac9073c1c  
-[5] REST-API:   https://nifi.apache.org/docs/nifi-docs/rest-api/index.html  
-[6] Erro de Log cheio:  https://stackoverflow.com/questions/56220024/apache-nifi-recovering-from-flowfile-repository-issue  
+[1] Linguagem de expressão: <https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html>  
+[2] GET HTTP Paginado:  <https://community.cloudera.com/t5/Support-Questions/InvokeHTTP-with-pagination/td-p/165546?lightbox-message-images-165546=20375i893A220D11974D6F>  
+[3] GET HTTP Paginado:  <https://github.com/pvillard31/my-blog/blob/main/2016/2016-04-04-analyze-flickr-account-using-apache/index.md>  
+[4] REST-API:   <https://shubham-kanungo95.medium.com/exploring-nifi-rest-api-with-stopping-and-starting-a-processor-cfeac9073c1c>  
+[5] REST-API:   <https://nifi.apache.org/docs/nifi-docs/rest-api/index.html>  
+[6] Erro de Log cheio:  <https://stackoverflow.com/questions/56220024/apache-nifi-recovering-from-flowfile-repository-issue>  
 ## Dependências
 [1] Nifi, 1.25.0, Controle de fluxo de dados
 
@@ -104,7 +104,7 @@ Após isso o arquivo de fluxo foi enviado ao processador InvokeHTTP para ser rea
 
 <img src="./Images/InvokeHTTP.png" width="700" height="400">
 
-No campo HTTP URL foi escrito: https://api.portaldatransparencia.gov.br/api-de-dados/despesas/plano-orcamentario?ano=${year}&pagina=${page} para fazer uso dos argumentos de entrada contidos no arquivo de fluxo.
+No campo HTTP URL foi escrito: <https://api.portaldatransparencia.gov.br/api-de-dados/despesas/plano-orcamentario?ano=${year}&pagina=${page}> para fazer uso dos argumentos de entrada contidos no arquivo de fluxo.
 Foram também criados os campos de header accept e chave-api-dados clicando no ícone de + no canto superior direito.(Mais uma vez o campo de chave foi apagado por questões de segurança)
 
 <img src="./Images/Transparencia-Header.png" width="613" height="51">
@@ -114,7 +114,7 @@ O retorno da requisição foi enviado para a fila Response e o arquivo de fluxo 
 <img src="./Images/UpdateAttribute.png" width="875" height="296">
 
 ## Linguagem de Expressão
-A ferramenta possui a capacidade de efetuar várias operações em cima dos argumentos como manipulações de String e operações booleanas ou aritméticas. Por haverem muitos casos de uso possíveis recomenda-se conferir a documentação oficial do Apache NiFi: https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html
+A ferramenta possui a capacidade de efetuar várias operações em cima dos argumentos como manipulações de String e operações booleanas ou aritméticas. Por haverem muitos casos de uso possíveis recomenda-se conferir a documentação oficial do Apache NiFi: <https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html>
 
 
 ##  Outros Componentes
@@ -150,8 +150,8 @@ A função do Rótulo é criar campos de texto para usos genéricos como coment�
 
 ##  TUTORIAIS FUTUROS
 [1] É possível fazer start e stop de processadores por requisições API:   
-https://shubham-kanungo95.medium.com/exploring-nifi-rest-api-with-stopping-and-starting-a-processor-cfeac9073c1c  
-https://nifi.apache.org/docs/nifi-docs/rest-api/index.html  
+<https://shubham-kanungo95.medium.com/exploring-nifi-rest-api-with-stopping-and-starting-a-processor-cfeac9073c1c>  
+<https://nifi.apache.org/docs/nifi-docs/rest-api/index.html>  
 [2] Uso de lógica booleana
 
 

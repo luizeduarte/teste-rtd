@@ -398,19 +398,19 @@ s_metadata.ctl
 
 ## Referências
 
-1. Advanced Security Guide — docs.oracle.com. https://docs.oracle.com/en/database/oracle/oracle-database/19/asoag/introduction-to-transparent-data-encryption. [Accessed 04-10-2023].
-2. Advanced Security Guide — docs.oracle.com. https://docs.oracle.com/en/database/oracle/oracle-database/19/asoag/introduction-to-transparent-data-encryption.html#GUID-B0870B12-E6AD-4254-B4B3-D6A15A637975. [Accessed 04-10-2023].
-3. Chapter 31. Logical Replication — postgresql.org. https://www.postgresql.org/docs/current/logical-replication.html. [Accessed 04-10-2023].
-4. Data at rest - Wikipedia — en.wikipedia.org. https://en.wikipedia.or/wiki/Data_at_rest. [Accessed 04-10-2023].
-5. Data Protection: Data In transit vs. Data At Rest — digitalguardian.com. https://www.digitalguardian.com/blog/data-protection-data-in-transit-vs-data-at-rest#:~:text=Data%20at%20rest%20is%20safely,while%20it%20is%20being%20transmitted. [Accessed 04-10-2023].
-6. Locked Up: Advances in Postgres Data Encryption - Vibhor Kumar — youtube.com. https://www.youtube.com/watch?v=X5Vfi6qqyHk. [Accessed 04-10-2023].
-7. MySQL :: MySQL 8.0 Reference Manual :: 15.13 InnoDB Data-at-Rest Encryption — dev.mysql.com. https://dev.mysql.com/doc/refman/8.0/en/innodb-data-encryption.html. [Accessed 04-10-2023].
-8. MySQL :: MySQL Enterprise Transparent Data Encryption (TDE) — mysql.com. https://www.mysql.com/products/enterprise/tde.html. [Accessed 04-10-2023].
-9. Transparent Data Encryption — enterprisedb.com. https://www.enterprisedb.com/docs/tde/latest/. [Accessed 04-10-2023].
-10. Transparent Data Encryption - PostgreSQL wiki — wiki.postgresql.org. https://wiki.postgresql.org/wiki/Transparent_Data_Encryption. [Accessed 04-10-2023].
-11. Transparent data encryption - Wikipedia — en.wikipedia.org. https://en.wikipedia.org/wiki/Transparent_data_encryption. [Accessed 04-10-2023].
-12. Transparent Data Encryption for PostgreSQL — CYBERTEC — cybertec-postgresql.com. https://www.cybertec-postgresql.com/en/products/postgresql-transparent-data-encryption/. [Accessed 04-10-2023].
-13. What is Data at Rest? — techtarget.com. https://www.techtarget.com/searchstorage/definition/data-atrest#:~:text=Data%20at%20rest%20is%20data,to%20be%20read%20or%20updated. [Accessed 04-10-2023].
-14. What is TDE? — docs.delphix.com. https://docs.delphix.com/docs609/datasets/oracle-environments-and-data-sources/what-is-tde. [Accessed 04-10-2023].
-15. Anirban Ghoshal. EnterpriseDB adds Transparent Data Encryption to PostgreSQL — infoworld.com. https://www.infoworld.com/article/3687813/enterprisedb-adds-transparent-data-encryption-to-postgresql.html. [Accessed 04-10-2023].
-16. Masahiko Sawada. Re: [Proposal] Table-level Transparent Data Encryption (TDE) and Key Management Service (KMS) — postgresql.org. https://www.postgresql.org/messageidCAD21AoBjrbxvaMpTApX1cEsO%3D8N%3Dnc2xVZPB0d9e-VjJ%3DYaRnw%40mail.gmail.com. [Accessed 04-10-2023].
+1. Advanced Security Guide — docs.oracle.com. <https://docs.oracle.com/en/database/oracle/oracle-database/19/asoag/introduction-to-transparent-data-encryption>. [Accessed 04-10-2023].
+2. Advanced Security Guide — docs.oracle.com. <https://docs.oracle.com/en/database/oracle/oracle-database/19/asoag/introduction-to-transparent-data-encryption.html#GUID-B0870B12-E6AD-4254-B4B3-D6A15A637975>. [Accessed 04-10-2023].
+3. Chapter 31. Logical Replication — postgresql.org. <https://www.postgresql.org/docs/current/logical-replication.html>. [Accessed 04-10-2023].
+4. Data at rest - Wikipedia — en.wikipedia.org. <https://en.wikipedia.or/wiki/Data_at_rest>. [Accessed 04-10-2023].
+5. Data Protection: Data In transit vs. Data At Rest — digitalguardian.com. <https://www.digitalguardian.com/blog/data-protection-data-in-transit-vs-data-at-rest#:~:text=Data%20at%20rest%20is%20safely,while%20it%20is%20being%20transmitted>. [Accessed 04-10-2023].
+6. Locked Up: Advances in Postgres Data Encryption - Vibhor Kumar — youtube.com. <https://www.youtube.com/watch?v=X5Vfi6qqyHk>. [Accessed 04-10-2023].
+7. MySQL :: MySQL 8.0 Reference Manual :: 15.13 InnoDB Data-at-Rest Encryption — dev.mysql.com. <https://dev.mysql.com/doc/refman/8.0/en/innodb-data-encryption.html>. [Accessed 04-10-2023].
+8. MySQL :: MySQL Enterprise Transparent Data Encryption (TDE) — mysql.com. <https://www.mysql.com/products/enterprise/tde.html>. [Accessed 04-10-2023].
+9. Transparent Data Encryption — enterprisedb.com. <https://www.enterprisedb.com/docs/tde/latest/>. [Accessed 04-10-2023].
+10. Transparent Data Encryption - PostgreSQL wiki — wiki.postgresql.org. <https://wiki.postgresql.org/wiki/Transparent_Data_Encryption>. [Accessed 04-10-2023].
+11. Transparent data encryption - Wikipedia — en.wikipedia.org. <https://en.wikipedia.org/wiki/Transparent_data_encryption>. [Accessed 04-10-2023].
+12. Transparent Data Encryption for PostgreSQL — CYBERTEC — cybertec-postgresql.com. <https://www.cybertec-postgresql.com/en/products/postgresql-transparent-data-encryption/>. [Accessed 04-10-2023].
+13. What is Data at Rest? — techtarget.com. <https://www.techtarget.com/searchstorage/definition/data-atrest#:~:text=Data%20at%20rest%20is%20data,to%20be%20read%20or%20updated>. [Accessed 04-10-2023].
+14. What is TDE? — docs.delphix.com. <https://docs.delphix.com/docs609/datasets/oracle-environments-and-data-sources/what-is-tde>. [Accessed 04-10-2023].
+15. Anirban Ghoshal. EnterpriseDB adds Transparent Data Encryption to PostgreSQL — infoworld.com. <https://www.infoworld.com/article/3687813/enterprisedb-adds-transparent-data-encryption-to-postgresql.html>. [Accessed 04-10-2023].
+16. Masahiko Sawada. Re: [Proposal] Table-level Transparent Data Encryption (TDE) and Key Management Service (KMS) — postgresql.org. <https://www.postgresql.org/messageidCAD21AoBjrbxvaMpTApX1cEsO%3D8N%3Dnc2xVZPB0d9e-VjJ%3DYaRnw%40mail.gmail.com>. [Accessed 04-10-2023].

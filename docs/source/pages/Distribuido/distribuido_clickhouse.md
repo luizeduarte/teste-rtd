@@ -4,14 +4,14 @@
 Criar um sistema clickhouse que faça a disribuição de consulta em tabelas entre diferentes máquinas para aumento de performance em consulta. Ao contrário de possuir um único processador carregando páginas de uma grande tabela em memória, uma por uma sequencialmente, o objetivo é que multiplos processadores possam trabalhar independentemente e paralelamente com sua fração de tabela, podendo assim diminuir o gargalo de page fault.
 
 ## Links
-[1] Clickhouse install: https://clickhouse.com/docs/en/install#available-installation-options \
-[2] Clickhouse scaling out: https://clickhouse.com/docs/en/architecture/horizontal-scaling \
-[3] Clickhouse keeper: https://clickhouse.com/docs/en/guides/sre/keeper/clickhouse-keeper \
-[4] Distributed Table: https://clickhouse.com/docs/en/engines/table-engines/special/distributed#distributed-writing-data \
-[5] Distributed and Replicated Clickhouse Configuration: https://medium.com/@merticariug/distributed-clickhouse-configuration-d412c211687c \
-[6] Postgres Sharded table: https://clickhouse.com/docs/en/engines/table-engines/integrations/ExternalDistributed \
-[7] ON CLUSTER statement: https://clickhouse.com/docs/en/sql-reference/distributed-ddl \
-[8] Cluster 3S 1R: https://clickhouse.com/docs/en/architecture/cluster-deployment
+[1] Clickhouse install: <https://clickhouse.com/docs/en/install#available-installation-options> \
+[2] Clickhouse scaling out: <https://clickhouse.com/docs/en/architecture/horizontal-scaling> \
+[3] Clickhouse keeper: <https://clickhouse.com/docs/en/guides/sre/keeper/clickhouse-keeper> \
+[4] Distributed Table: <https://clickhouse.com/docs/en/engines/table-engines/special/distributed#distributed-writing-data> \
+[5] Distributed and Replicated Clickhouse Configuration: <https://medium.com/@merticariug/distributed-clickhouse-configuration-d412c211687c> \
+[6] Postgres Sharded table: <https://clickhouse.com/docs/en/engines/table-engines/integrations/ExternalDistributed> \
+[7] ON CLUSTER statement: <https://clickhouse.com/docs/en/sql-reference/distributed-ddl> \
+[8] Cluster 3S 1R: <https://clickhouse.com/docs/en/architecture/cluster-deployment>
 
 ## Dependências
 [1] Clickhouse, v24.1.5.6-stable, SGDB colunar com paralelismo e distribuido.

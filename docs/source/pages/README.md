@@ -15,7 +15,7 @@ Template básico opcional para documentação
 Orientação do uso de PostgreSQL e de bancos relacionais
 
 #### Links (Links auxiliares para outras fontes)
-[1] PostgreSQL Docs: https://www.postgresql.org/docs/
+[1] PostgreSQL Docs: <https://www.postgresql.org/docs/>
 
 #### Dependências (Softwares utilizado, versão e propósito)
 [1] PostgresSQL, 15.6-1, Sistema de Gerênciamento de Banco de Dados \

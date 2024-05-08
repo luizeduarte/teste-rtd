@@ -9,19 +9,19 @@ Dependências:
 
 Para subir a ferramenta do Metanome primeiro crie um diretório Metanome, baixe os arquivos dentro do diretório e os descomprima.
 Arquivo zip:
-https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/projekte/repeatability/DataProfiling/Metanome/deployment-1.2-SNAPSHOT-package_with_tomcat.zip
+<https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/projekte/repeatability/DataProfiling/Metanome/deployment-1.2-SNAPSHOT-package_with_tomcat.zip>
 
 Em seguida suba o serviço rodando o executável (obs: O terminal ficará travado)
 ``` bash
 source run.sh
 ```
-Por fim acesse a porta http://localhost:8080/
+Por fim acesse a porta <http://localhost:8080/>
 
 Para fechar a aplicação, mate o processo no terminal ou com o PID
 
 ## Adicionar Algoritmos
 A lista de algoritmos que o Metanome disponibiliza está na seção Metanome Algorithms em
-https://hpi.de/naumann/projects/data-profiling-and-analytics/metanome-data-profiling/algorithms.html
+<https://hpi.de/naumann/projects/data-profiling-and-analytics/metanome-data-profiling/algorithms.html>
 Baixe o arquivo .jar do algoritmo desejado e o coloque dentro do diretório:
 Metanome/backend/WEB-INF/classes/algorithms/
 Em seguinda, no frontend na porta 8080 adicione o algoritmo com o botão de soma no campo Choose Algorithm.

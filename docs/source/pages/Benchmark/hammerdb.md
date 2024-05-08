@@ -5,8 +5,8 @@ Documentar uso e explicação das métricas utilizadas para realizar benchmarks 
 
 
 ## Links
-[1] Download: https://www.hammerdb.com/download.html \
-[2] OLTP metrics: https://www.hammerdb.com/blog/uncategorized/why-both-tpm-and-nopm-performance-metrics/
+[1] Download: <https://www.hammerdb.com/download.html> \
+[2] OLTP metrics: <https://www.hammerdb.com/blog/uncategorized/why-both-tpm-and-nopm-performance-metrics/>
 
 
 ## Dependências

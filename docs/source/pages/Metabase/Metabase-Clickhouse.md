@@ -5,18 +5,18 @@ Ferramenta open-source para visualização e análise de dados por meio de inter
 Documentar instalação e como conectar ao Clickhouse
 
 ## Links
-[1] Instalar Metabase e Conectar ao clickhouse: https://github.com/ClickHouse/metabase-clickhouse-driver \
-[2] Adicionar base de dados : https://www.metabase.com/docs/latest/databases/connecting 
+[1] Instalar Metabase e Conectar ao clickhouse: <https://github.com/ClickHouse/metabase-clickhouse-driver> \
+[2] Adicionar base de dados: <https://www.metabase.com/docs/latest/databases/connecting> 
 
 ## Dependências
 [1] Clickhouse, v24.1.5.6-stable, Sistema de Gerênciamento de Banco de Dados colunar (TESTADO NA VERSÃO 24,VERSÕES ANTERIORES PODEM NÃO FUNCIONAR)
 
 
 ## Instalação (Debian/Ubuntu)
-1.  Faça o download da verção mais recente do Metabase em https://www.metabase.com/start/oss/jar
+1.  Faça o download da verção mais recente do Metabase em <https://www.metabase.com/start/oss/jar>
 2.  Crie um diretório para o metabase e coloque metabase.jar dentro dele
 3.  Crie um sub-diretório chamado plugins
-4.  Faça o download do driver do clickhouse para o Metabase em https://github.com/ClickHouse/metabase-clickhouse-driver/releases
+4.  Faça o download do driver do clickhouse para o Metabase em <https://github.com/ClickHouse/metabase-clickhouse-driver/releases>
 5.  Dentro do diretório base do metabase rode
     ```bash
     MB_PLUGINS_DIR=./plugins; java -jar metabase.jar

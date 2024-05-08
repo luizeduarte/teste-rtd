@@ -6,12 +6,12 @@ MAIS TESTES NECESSÁRIOS PARA ESCRITA DA DOCUMENTAÇÃO
 3 - Caso necessario, a primary original deve sincronizar os dados e a new primary deve virar a standby original  
 
 ## Links
-[1] https://www.pgpool.net/pgpool-web/contrib_docs/watchdog_master_slave_3.3/en.html  
-[2] pgpool setup: https://b-peng.blogspot.com/2022/03/pgpool-debian.html  
-[3] auto failback: https://b-peng.blogspot.com/2022/02/auto-failback.html  
-[4] GOAT: https://tatsuo-ishii.github.io/pgpool-II/current/example-cluster.html  
-[5] Mesmo de cima atualizado: https://www.pgpool.net/docs/latest/en/html/example-cluster.html  
-[6] Possiveis erros: https://klouddb.io/pgpool-issues/  
+[1] <https://www.pgpool.net/pgpool-web/contrib_docs/watchdog_master_slave_3.3/en.html>  
+[2] pgpool setup: <https://b-peng.blogspot.com/2022/03/pgpool-debian.html>  
+[3] auto failback: <https://b-peng.blogspot.com/2022/02/auto-failback.html>  
+[4] GOAT: <https://tatsuo-ishii.github.io/pgpool-II/current/example-cluster.html>  
+[5] Mesmo de cima atualizado: <https://www.pgpool.net/docs/latest/en/html/example-cluster.html>  
+[6] Possiveis erros: <https://klouddb.io/pgpool-issues/>  
 
 ## Dependências
 [1] PostgreSQL, 16.0-1, Sistema de Gerenciamento de Banco de Dados  
